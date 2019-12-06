@@ -251,7 +251,23 @@ footer nav a {
 }
 .LM{
     border: 2px solid black;
-    width: 110px;
+    width: 100px;
     padding:5px;
     border-radius:10%;
+}
+.middle{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.row1{
+    display:flex;
+    justify-content: space-around;
+}
+.row2{
+    display:flex;
+    justify-content: space-around;
+}
+a{
+    text-decoration:none;
 }
