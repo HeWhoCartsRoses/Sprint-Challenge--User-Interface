@@ -66,11 +66,20 @@ p {
     line-height: 1.4;
 }
 
-.container {
+body {
     width: 800px;
     margin: 0 auto;
 }
-
+.topbar{
+    display:flex;
+    margin-bottom:20px;
+    margin-top: 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+#jumbo{
+    margin-bottom:20px;
+}
 .top-content {
     display: flex;
     flex-wrap: wrap;
