@@ -269,5 +269,16 @@ footer nav a {
     justify-content: space-around;
 }
 a{
-    text-decoration:none;
+    
+    color: #969696;
+  border: 1px;
+  border-radius: 12.5%;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: .4s;
+  cursor: pointer;
+  text-decoration: none;
+}
+a:hover{
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  color: #969696;
 }
