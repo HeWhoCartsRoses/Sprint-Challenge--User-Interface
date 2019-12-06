@@ -77,7 +77,7 @@ body {
     align-items: center;
     justify-content: space-between;
 }
-#jumbo{
+.jumbo{
     margin-bottom:20px;
 }
 .top-content {
@@ -242,4 +242,8 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+.imgbox{
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
 }
